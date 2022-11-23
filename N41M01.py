@@ -348,7 +348,7 @@ def free(idf,pwv):
 	bi = random.choice([u,k,kk,b,h,hh])
 	pers = loop*100/len(id2)
 	fff = '%'
-	sys.stdout.write('\r %s[CRACK] %s/%s  [OK] %s |  [CP]:%s  '%(bi,loop,len(id2),len(ok),cp)),
+	sys.stdout.write('\r %s[HACK] %s/%s  [OK] %s |  [CP]:%s  '%(bi,loop,len(id2),len(ok),cp)),
 	sys.stdout.flush()
 	ua = random.choice(ugen)
 	ua2 = random.choice(ugen2)
@@ -422,12 +422,12 @@ class Main:
 		print(logo)
 		print("")
 		print("- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -")
-		print("\033[1;37m𝗡𝗢𝗧𝗘 : Approval FOLLOW THIS ACCOUNT ")
+		print("\033[1;37m𝗡𝗢𝗧𝗘 : Approval FOLLOW THIS PAGE ")
 		print("- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - ")
 		
 		
 		print("")
-		print("\033[1;37m [1] 𝗙𝗶𝗿𝘀𝘁 FOLLOW THIS ACCOUNT   ")
+		print("\033[1;37m [1] 𝗙𝗶𝗿𝘀𝘁 FOLLOW THIS PAGE   ")
 		print("\033[1;37m [2] 𝗘𝘅𝗶𝘁")
 		print("")
 		Baloch = input("\n\033[1;37m  Choose : \033[1;32m")
@@ -437,7 +437,7 @@ class Main:
 			print("    Thanks♥️")
 			exit() 
 		elif Baloch in ["1", "01"]:
-			os.system("xdg-open https://www.facebook.com/shshanto13579")
+			os.system("xdg-open https://www.facebook.com/DEVIL.NAJMUL")
 			print("")
 			time.sleep(3.0)
 			print("\033[1;37m    𝗖𝗛𝗘𝗖𝗞𝗜𝗡𝗚 𝗔𝗣𝗣𝗥𝗢𝗩𝗔𝗟 ")
